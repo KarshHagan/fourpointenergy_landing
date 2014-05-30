@@ -1,0 +1,14 @@
+@-webkit-keyframes arrows {
+    from { background-position: 0px; }
+    to { background-position: -275px; }
+}
+
+@-moz-keyframes arrows {
+    from { background-position: 0px; }
+    to { background-position: -275px; }
+}
+
+@keyframes arrows {
+    from { background-position: 0px; }
+    to { background-position: -275px; }
+}

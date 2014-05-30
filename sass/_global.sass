@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900)
+
+*
+	margin: 0px
+
+html,body
+	height: 100%
+	width: 100%
+	font-family: 'Lato', sans-serif
+	font-weight: bold
+	-webkit-font-smoothing: antialiased
+	font-smoothing: antialiased
+	color: $dark_gray
+	text-align: center
+.clearfix
+	zoom: 1
+	clear: both
+
+.clearfix:before, .clearfix:after
+	content: '\0020'
+	display: block
+	height: 0
+	overflow: hidden
+
+.clearfix:after
+	clear: both
+
+h1
+	font-size: 55px
+	font-weight: 900
+	text-transform: uppercase
+	color: $white
+	@media screen and (max-width: 767px)
+		font-size: 30px
+h2
+	font-size: 25px
+	font-weight: 700
+	margin: 0 auto 20px
+h3
+	font-size: 20px
+	color: $cta_yellow
+a
+	color: $dark_gray
+	text-decoration: none
+p
+	font-weight: 400
+	font-size: 17px
+	line-height: 26px
+.container
+	width: 90%
+	margin: 0 auto
+	max-width: 1000px
+	padding: 20px 0
+.main
+	padding: 50px 0
+	max-width: 700px
+.main_cta
+	background: url(/img/footer_bg.jpg) no-repeat center bottom $fourpoint_blue
+	background-size: 100% auto
+	width: 100%
+	padding: 0 0 100px
+	@media screen and (max-width: 767px)
+		padding: 0 0 40px
+	.main
+		padding: 50px 0 10px
+	.jobs
+		div
+			width: 21%
+			padding: 20px 2%
+			margin: 0 auto
+			float: left
+			text-align: left
+			ul
+				padding-left: 11%
+				li
+					font-weight: 400
+					margin: 10px 0 
+					list-style: disc outside
+					font-size: 14px
+			h4
+				font-size: 18px
+			@media screen and (max-width: 767px)
+				width: 90%
+				padding: 20px 5%
+	p
+		max-width: 700px
+		width: 90%
+		margin: 0 auto
+	.cta
+		margin-bottom: 80px
+header
+	background: #0a0a0a
+	width: 100%
+	height: auto
+	.container
+		background: url(/img/header_bg.jpg) no-repeat center center
+		.fourpoint_logo
+			background: url(../img/FourPoint_Logo.svg) no-repeat
+			background-size: 220px 134px
+			width: 220px
+			height: 134px
+			margin: 20px auto
+			display: block
+		h3
+			margin: 30px auto 50px
+		h1
+			max-width: 900px
+			margin: 0 auto
+		@media screen and (max-width: 767px)
+			width: 100%
+			margin: 0 auto
+			padding: 20px 0
+			h3, h1
+				max-width: 90%
+.no-svg header .container
+	.fourpoint_logo
+		background: url(../img/FourPoint_Logo.png) no-repeat
+		background-size: 220px 134px
+		width: 220px
+		height: 134px
+		margin: 20px auto
+		display: block
+.cta
+	padding: 10px 15px
+	background: $cta_yellow
+	margin: 15px auto
+	display: inline-block
+	border: 2px solid $cta_yellow
+	overflow: hidden
+	&:hover
+		border: 2px solid black 
+footer
+	position: relative
+	margin: 0 auto
+	width: 100%
+	background: #0a0a0a
+	color: $white
+	p
+		font-size: 14px
+		line-height: 18px
+	@media screen and (max-width: 768px)
+		height: auto
+		text-align: center
+		line-height: 30px
+		padding: 0 0 10px
+		.social_font
+			float: none
+			margin: 0 auto
+			padding:
+				top: 10px
+		.social_callout
+			float: none
+			&:after
+				content: ''
+				padding: 0
+		.post_title
+			display: block
+	.call
+		display: block
+	.mobile_call
+		display: none
+.touch .mobile_call
+	display: block
+	color: white
+.touch .call
+	display: none
