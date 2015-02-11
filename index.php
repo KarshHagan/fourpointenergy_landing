@@ -54,30 +54,29 @@
 				<div>
 					<h4>Accounting</h4>
 					<ul>
+						<li>Revenue Accountant</li>
 						<li>JIB Accountant</li>
-						<li>Contract Administrator</li>
-						<li>Marketing Representative</li>
 					</ul>
 				</div>
 				<div>						
 					<h4>Engineering</h4>
 					<ul>
-						<li>Reservoir Engineer</li>
-						<li>Operations Engineer</li>
+						<li>Drilling Engineer</li>
+						<li>Completions Engineer</li>
+						<li>Production Engineer</li>
 						<li>Production Technician</li>
 					</ul>
 				</div>
 				<div>
 					<h4>Land</h4>
 					<ul>
-						<li>Landman</li>
-						<li>Land Administration Analyst</li>
+						<li>Division Order & Land Administration Analyst</li>
 					</ul>
 				</div>
 				<div>
-					<h4>Business Development</h4>
+					<h4>Executive Leadership</h4>
 					<ul>
-						<li>Business Development Analyst</li>
+						<li>Executive Assistant to President & CEO</li>
 					</ul>
 				</div>
 			</section>
